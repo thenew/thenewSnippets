@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+display: block;
+height: 100%;
+width: 100%;
+]]></content>
+	<tabTrigger>dba</tabTrigger>
+	<scope>source.css</scope>
+  <description>Link tag expends within his parent</description>
+</snippet>

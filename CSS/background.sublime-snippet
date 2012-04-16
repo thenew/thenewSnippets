@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+background: url(${1:../images/}${2:bg/}${3:button}${4:.png}) ${5:center} ${6:top} ${7:no-repeat};
+]]></content>
+  <tabTrigger>bac</tabTrigger>
+  <scope>source.css</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+font-family: '${1:Arial}', sans-serif;
+]]></content>
+	<tabTrigger>ff</tabTrigger>
+	<scope>source.css</scope>
+	<description>font-family</description>
+</snippet>

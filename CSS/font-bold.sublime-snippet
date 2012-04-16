@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+font-weight: ${1:bold};
+]]></content>
+	<tabTrigger>fb</tabTrigger>
+	<scope>source.css</scope>
+	<description>font-weight: bold</description>
+</snippet>

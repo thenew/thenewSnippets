@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+text-shadow: ${1:1}px ${2:1}px ${3:0}px ${4:rgba(0,0,0,.4)};
+]]></content>
+  <tabTrigger>ts</tabTrigger>
+  <scope>source.css</scope>
+</snippet>

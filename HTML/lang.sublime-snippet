@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<?php echo __('${1:txt}', '${2:clrz_lang}'); ?>
+]]></content>
+	<tabTrigger>__</tabTrigger>
+	<!-- <scope>source.html</scope> -->
+	<description>i18n : echo __('txt', 'lang')</description>
+</snippet>
