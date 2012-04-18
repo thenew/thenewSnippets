@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-    	display: block;
+display: block;
     ]]></content>
     <tabTrigger>db</tabTrigger>
     <scope>source.css</scope>
