@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+\$q_args = array(
+    'post_type'      => '${1:post}',
+    'posts_per_page' => ${2:-1}
+);
+query_posts(\$q_args);
+while (have_posts()) : the_post();
+    echo '<li>';
+        the_title();
+    echo '</li>';
+endwhile;
+wp_reset_query();
+]]></content>
+    <tabTrigger>query</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
