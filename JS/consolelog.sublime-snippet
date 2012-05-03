@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+console.log('${2:toto} : '+${1:e});
+]]></content>
+    <tabTrigger>con</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
