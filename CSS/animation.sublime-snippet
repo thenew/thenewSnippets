@@ -1,29 +1,59 @@
 <snippet>
-  <content><![CDATA[
-@-webkit-keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-@-moz-keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100%;
-  }
+    <content><![CDATA[
+.anim {
+    /* Animation name, duration, delay, iterations, easing */
+    -webkit-animation: ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
+    -moz-animation:    ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
+    -o-animation:      ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
+    animation:         ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
 }
 
-.selector {
-  /* Animation name, duration, delay, iterations, easing */
-  -webkit-animation: fade 1s 0 0 ease-out;
-  -moz-animation: fade 1s 0 0 ease-out;
-}]]>
-  </content>
-  <tabTrigger>animation</tabTrigger>
-  <scope>source.css</scope>
-  <description>Keyframe animation</description>
+@-webkit-keyframes ${1:anim-name} {
+    from {
+        color: #bada55;
+    }
+    50% {
+        color: #0ff1ce;
+    }
+    to {
+        color: #bada55;
+    }
+}
+@-moz-keyframes ${1:anim-name} {
+    from {
+        color: #bada55;
+    }
+    50% {
+        color: #0ff1ce;
+    }
+    to {
+        color: #bada55;
+    }
+}
+@-o-keyframes ${1:anim-name} {
+    from {
+        color: #bada55;
+    }
+    50% {
+        color: #0ff1ce;
+    }
+    to {
+        color: #bada55;
+    }
+}
+@keyframes ${1:anim-name} {
+    from {
+        color: #bada55;
+    }
+    50% {
+        color: #0ff1ce;
+    }
+    to {
+        color: #bada55;
+    }
+}
+]]></content>
+    <tabTrigger>animation</tabTrigger>
+    <scope>source.css</scope>
+    <description>Keyframe animation</description>
 </snippet>
