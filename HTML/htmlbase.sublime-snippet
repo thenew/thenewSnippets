@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+<!doctype html>
+<html lang="fr-FR" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${1:title}</title>
+    <link rel="icon" href="/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<!--[if lt IE 7 ]><body is_ie6 lt_ie7 lt_ie8 lt_ie9 lt_ie10'); ?>><![endif]-->
+   <!--[if IE 7 ]><body is_ie7 lt_ie8 lt_ie9 lt_ie10'); ?>><![endif]-->
+   <!--[if IE 8 ]><body is_ie8 lt_ie9 lt_ie10'); ?>><![endif]-->
+   <!--[if IE 9 ]><body is_ie9 lt_ie10'); ?>><![endif]-->
+<!--[if gt IE 9 ]><body is_ie10 gt_ie9'); ?>><![endif]-->
+<!--[if !IE]><!--><body><!--<![endif]-->
+    ${2:the_content}
+</body>
+</html>
+]]></content>
+    <tabTrigger>html5</tabTrigger>
+    <description>Base HTML5</description>
+</snippet>
