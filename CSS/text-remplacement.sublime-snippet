@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+text-align: left;
+text-indent: -9999px;
+overflow: hidden;
+]]></content>
+    <tabTrigger>tr</tabTrigger>
+    <scope>source.css, source.scss</scope>
+</snippet>
