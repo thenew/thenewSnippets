@@ -3,6 +3,6 @@
 font-family: '${1:Arial}', sans-serif;
 ]]></content>
 	<tabTrigger>ff</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css, source.scss</scope>
 	<description>font-family</description>
 </snippet>

@@ -1,10 +1,8 @@
 <snippet>
   <content><![CDATA[
+opacity: .${1:50};
 filter: alpha(opacity=${1:50});
-     -khtml-opacity: .${1:50};
-       -moz-opacity: .${1:50};
-            opacity: .${1:50};
 ]]></content>
   <tabTrigger>opacity</tabTrigger>
-  <scope>source.css</scope>
+  <scope>source.css, source.scss</scope>
 </snippet>

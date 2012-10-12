@@ -3,9 +3,9 @@
 .anim {
     /* Animation name, duration, delay, iterations, easing */
     -webkit-animation: ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
-    -moz-animation:    ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
-    -o-animation:      ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
-    animation:         ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
+    -moz-animation: ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
+    -o-animation: ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
+    animation: ${1:anim-name} ${2:10}s 0 infinite ease-in-out;
 }
 
 @-webkit-keyframes ${1:anim-name} {

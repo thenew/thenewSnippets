@@ -3,5 +3,5 @@
 text-transform: ${1:uppercase};
 ]]></content>
     <tabTrigger>tt</tabTrigger>
-    <scope>source.css</scope>
+    <scope>source.css, source.scss</scope>
 </snippet>

@@ -3,6 +3,6 @@
 font-size: ${1:14}px;
 ]]></content>
 	<tabTrigger>fs</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css, source.scss</scope>
 	<description>font-size</description>
 </snippet>

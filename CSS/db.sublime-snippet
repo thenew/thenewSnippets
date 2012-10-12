@@ -3,5 +3,5 @@
 display: block;
 ]]></content>
     <tabTrigger>db</tabTrigger>
-    <scope>source.css</scope>
+    <scope>source.css, source.scss</scope>
 </snippet>

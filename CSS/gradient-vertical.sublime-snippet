@@ -4,7 +4,6 @@ background-color: #${2:333333};
 background-repeat: repeat-x;
 background-image: -webkit-linear-gradient(top, #${1:000000} 0%,#${2:333333} 100%);
 background-image:    -moz-linear-gradient(top, #${1:000000} 0%,#${2:333333} 100%);
-background-image:     -ms-linear-gradient(top, #${1:000000} 0%,#${2:333333} 100%);
 background-image:      -o-linear-gradient(top, #${1:000000} 0%,#${2:333333} 100%);
 background-image:         linear-gradient(top, #${1:000000} 0%,#${2:333333} 100%);
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#${1:000000}), color-stop(100%,#${2:333333}));
@@ -12,6 +11,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#${1:000000}'
 ]]>
   </content>
   <tabTrigger>gradient</tabTrigger>
-  <scope>source.css</scope>
+  <scope>source.css, source.scss</scope>
   <description>Vertical gradient</description>
 </snippet>

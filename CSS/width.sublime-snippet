@@ -3,6 +3,6 @@
 width: ${1:100%};
 ]]></content>
 	<tabTrigger>w</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css, source.scss</scope>
 	<description>basic width</description>
 </snippet>

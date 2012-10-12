@@ -3,6 +3,6 @@
 font-weight: ${1:bold};
 ]]></content>
 	<tabTrigger>fb</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css, source.scss</scope>
 	<description>font-weight: bold</description>
 </snippet>
