@@ -2,7 +2,6 @@
   <content><![CDATA[
 -webkit-border-radius: ${1:5}px;
 -moz-border-radius: ${1:5}px;
--o-border-radius: ${1:5}px;
 border-radius: ${1:5}px;
 ]]></content>
   <tabTrigger>br</tabTrigger>
