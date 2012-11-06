@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${1:title}</title>
     <link rel="icon" href="/favicon.png">
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
 </head>
 <!--[if lt IE 7 ]><body is_ie6 lt_ie7 lt_ie8 lt_ie9 lt_ie10'); ?>><![endif]-->
    <!--[if IE 7 ]><body is_ie7 lt_ie8 lt_ie9 lt_ie10'); ?>><![endif]-->

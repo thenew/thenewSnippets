@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+\$(document.html).removeClass('no-js').addClass('js');
+
+window.addEvent('domready',function(){
+
+});
+
+window.addEvent('load',function(){
+
+});
+
+]]></content>
+    <tabTrigger>js</tabTrigger>
+    <description>Mootools starter</description>
+    <scope>source.javascript</scope>
+</snippet>
