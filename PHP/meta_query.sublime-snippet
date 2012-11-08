@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+'meta_query' => array(
+    array(
+        'key' => '${1:color}',
+        'value' => '${2:blue}',
+        'compare' => '${3:!=}'
+    )
+)
+]]></content>
+    <tabTrigger>meta</tabTrigger>
+    <scope>source.php</scope>
+    <description>WordPress Custom Field query</description>
+</snippet>

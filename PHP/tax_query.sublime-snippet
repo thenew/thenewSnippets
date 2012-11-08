@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+'tax_query' => array(
+    array(
+        'taxonomy' => '${1:taxo}',
+        'field' => '${2:slug}',
+        'terms' => '${3:bob}'
+    )
+)
+]]></content>
+    <tabTrigger>tax</tabTrigger>
+    <scope>source.php</scope>
+    <description>WordPress taxonomy query</description>
+</snippet>

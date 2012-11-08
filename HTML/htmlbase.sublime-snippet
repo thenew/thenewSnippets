@@ -9,7 +9,11 @@
     <link rel="icon" href="/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
-    <script type="text/javascript" src="assets/js/scripts.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <!--[if lt IE 9]>
+        <script src="assets/js/ie/html5.js"></script>
+        <script src="assets/js/ie/selectivizr.js"></script>
+    <![endif]-->
 </head>
 <!--[if lt IE 7 ]><body is_ie6 lt_ie7 lt_ie8 lt_ie9 lt_ie10'); ?>><![endif]-->
    <!--[if IE 7 ]><body is_ie7 lt_ie8 lt_ie9 lt_ie10'); ?>><![endif]-->
