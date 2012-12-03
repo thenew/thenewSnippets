@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+.addEvent('click', function(e) {
+    e.stop();
+    ${1}
+});
+]]></content>
+    <tabTrigger>click</tabTrigger>
+    <description>Mootools addEvent click</description>
+    <scope>source.javascript</scope>
+</snippet>

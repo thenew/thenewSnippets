@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$\$('${1}').each(function(el,i) {
+    el.${2}
+});
+]]></content>
+    <tabTrigger>each</tabTrigger>
+    <description>Mootools each</description>
+    <scope>source.javascript</scope>
+</snippet>
