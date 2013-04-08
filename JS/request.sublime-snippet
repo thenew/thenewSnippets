@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+var request = new Request({
+    url: '${1:url}',
+    method: 'get',
+    data: {'ajax':'1'},
+    onRequest: function(){
+    },
+    onProgress: function(event, xhr){
+    },
+    onFailure: function(xhr){
+    },
+    onSuccess: function(response){
+    }
+}).send();
+]]></content>
+    <tabTrigger>request</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

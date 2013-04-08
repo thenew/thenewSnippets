@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+-moz-hyphens: auto;
+-ms-hyphens: auto;
+hyphens: auto;
+]]></content>
+    <tabTrigger>hyphens</tabTrigger>
+    <scope>source.css, source.scss</scope>
+</snippet>

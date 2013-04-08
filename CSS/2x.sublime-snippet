@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+@media(min--moz-device-pixel-ratio:1.5),
+(-o-min-device-pixel-ratio:3/2),
+(-webkit-min-device-pixel-ratio:1.5),
+(min-device-pixel-ratio:1.5),
+(min-resolution:1.5dppx) {
+    ${1:#logo} {
+        background-image: url(../images/${2:logo}-2x.png);
+        background-size: ${3:400}px ${4:400}px,auto;
+    }
+}
+]]></content>
+    <tabTrigger>2x</tabTrigger>
+    <scope>source.css,source.scss</scope>
+</snippet>

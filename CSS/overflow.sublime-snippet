@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+]]></content>
+    <tabTrigger>over</tabTrigger>
+    <scope>source.css, source.scss</scope>
+</snippet>
