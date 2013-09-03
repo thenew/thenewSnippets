@@ -2,15 +2,19 @@
     <content><![CDATA[
 \$${1:q}_args = array(
     'post_type'      => '${2:post}',
-    'posts_per_page' => ${3:6}
+    'posts_per_page' => ${3:6},
     'paged' => $paged
 );
 \$${1:q}_query = new WP_Query(\$${1:q}_args);
-if(\$${1:q}_query->have_posts()):
-    while(\$${1:q}_query->have_posts()):\$${1:q}_query->the_post();
-        ${4:// content}
-    endwhile;
-endif;
+if(\$${1:q}_query->have_posts()): ?>
+    <ul>
+        <?php while(\$${1:q}_query->have_posts()):\$${1:q}_query->the_post(); ?>
+            <li>
+                ${4:// content}
+            </li>
+        <?php endwhile; ?>
+    </ul>
+<?php endif;
 wp_reset_postdata();
 ]]></content>
     <tabTrigger>wpquery</tabTrigger>

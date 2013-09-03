@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$term = get_queried_object();
+\$current_term = get_queried_object();
 ]]></content>
     <tabTrigger>currentcat</tabTrigger>
     <scope>source.php</scope>

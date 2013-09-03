@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+Zend_debug::dump($this->getLayout()->getUpdate()->getHandles());
+]]></content>
+    <tabTrigger>debugLayout</tabTrigger>
+</snippet>
