@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+@media (max-width: #{\$${1:mobile}}) {
+    ${2:}
+}
+]]></content>
+    <tabTrigger>med</tabTrigger>
+</snippet>

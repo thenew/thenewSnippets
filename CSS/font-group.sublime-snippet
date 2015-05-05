@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+font-family: ${1:\$font-title};
+font-weight: ${2:\$bold};
+color: ${3:\$black};
+font-size: ${4:18}px;
+line-height: ${5:1};
+]]></content>
+    <tabTrigger>fg</tabTrigger>
+</snippet>
